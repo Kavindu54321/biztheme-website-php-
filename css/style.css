@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: 'Gentona';
+    text-shadow: 6px 2px black;
+    background: linear-gradient(to right, #00FF01, #44FED6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: -1px;
+    word-spacing: 0px;
+}
+
+@font-face {
+    font-family: 'Gentona';
+    src: url('gentonaheavyitalic-webfont.woff') format('woff') , url('gentonaheavyitalic-webfont.woff2') format('woff2')
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin-top: -80px;
+}
+
+.logotype {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+.login-box {
+    /* background: rgba(255, 165, 0, 0.8); */
+    padding: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 40px;
+    border: 3.5px solid green;
+    box-shadow: 5px 5px 50px 5px green;
+    border-radius: 90px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.login-box h2 {
+    margin: 0 0 -7px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gentona';
+}
+
+.input-group {
+    margin: 7px 0;
+    position: relative;
+    width: 111%;
+}
+
+.input-group span{
+    text-shadow: 0px 0px black;
+}
+
+.input-group input {
+    width: calc(100% - 40px);
+    padding: 12px;
+    text-align: center;
+    /* padding-left: 50px; */
+    border: none;
+    border-radius: 40px;
+    box-sizing: border-box;
+    background: #fff; /* Ensure background is white for contrast */
+    color: #000;
+    /* font-size: 14px; */
+    outline: none;
+    font-size: 16px;
+    box-shadow: inset 5px 6px 7px rgb(170, 170, 170);
+    font-family: 'Gentona';
+    /* font-weight: ; */
+}
+
+.input-group input::placeholder {
+    color: #aaa;
+}
+
+.input-group .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #87CDB4;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 6px;
+    background: maroon;
+    color: lime;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 2px;
+    font-family: 'Gentona';
+}
+
+.sms-code {
+    margin-top: 7px;
+}
+
+.sms-code p {
+    margin: 0;
+    text-shadow: 0px 0px white;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+.code-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0;
+}
+
+.code-boxes input {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 0 5px;
+}
+
+.resend {
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.resend a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resend a:hover {
+    text-decoration: underline;
+}
